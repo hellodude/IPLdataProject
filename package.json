@@ -1,0 +1,29 @@
+{
+  "name": "ipl-project",
+  "version": "1.0.0",
+  "description": "this is my first project in node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "aman verma",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "convert-csv-to-json": "0.0.15",
+    "csvtojson": "^2.0.10",
+    "json": "^9.0.6",
+    "json2csv": "^4.5.2",
+    "pg": "^7.12.1"
+  }
+}
